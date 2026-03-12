@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('Checkout'){
       steps{
-        git 'https://github.com/kunal22823/Devops-html'
+        git 'https://github.com/kunal22823/Devops-html.git'
       }
     }
     stage('Publish'){
